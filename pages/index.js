@@ -56,7 +56,7 @@ export default function Home({portfolioItems}) {
 export async function getStaticProps() {
 
   const portfolioItems = await fetchPortfolio('portfolios')
-
+// fdfdfd
   return {
     props: { portfolioItems },
     revalidate: 30
